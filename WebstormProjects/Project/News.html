@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stocker News Page</title>
+    <link rel="shortcut icon" type="image/png" href="s.png">
+
+    <!-- link to css file -->
+    <link href="News.css" rel="stylesheet">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.js"></script>
+    <script src="News.js"></script>
+</head>
+
+<body>
+<!-- navigation bar -->
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="News.html" class="active">News</a>
+    <a href="Trends.html">Trends</a>
+    <a href="Login.html">Login</a>
+</div>
+
+<!-- create div for popup window -->
+<div id="boxes">
+
+    <!-- create div for popup window -->
+    <div id="dialog" class="window">
+
+        Stocker is a news outlet so some of the information that can be viewed on here may not be suitable for kids.
+        Press agree to continue.
+
+        <div id="popupfoot"><a href="#" class="close agree">I agree</a> | <a class="agree" style="color:#bf4d88;"
+                                                                             href="#">I do not agree</a></div>
+    </div>
+
+    <div id="mask"></div>
+
+</div>
+
+<!-- create div for first header -->
+<div class="align">
+    <h1>This is Where You Can Find All the Latest News!</h1>
+</div>
+
+<!-- add whitespace between elements -->
+<div class="whitespce"></div>
+
+<!-- stocks the user is watching -->
+<div class="stocks">
+    <h2>News Regarding Stocks</h2>
+
+    <!-- create figure to allow captioning -->
+    <figure>
+        <img src="tesla.png" alt="tesla current stock price" height="300" width="400"/>
+        <figcaption>
+            Tesla current stock figure <br>
+            <a href="https://www.cnbc.com/2020/05/01/tesla-ceo-elon-musk-says-stock-price-is-too-high-shares-fall.html">Click
+                here to go to Tesla stock news article!</a>
+        </figcaption>
+    </figure>
+    <div class="whitespce"></div>
+    <!-- create figure to allow captioning -->
+    <figure>
+        <img src="lulu.png" alt="lulu current stock price" height="300" width="400"/>
+        <figcaption>
+            Lululemon's current stock price <br>
+            <a href="https://www.fool.com/investing/2020/04/30/is-lululemon-stock-a-buy.aspx">Click here to go to
+                Lululemon stock news article!</a>
+        </figcaption>
+    </figure>
+</div>
+<div class="whitespce"></div>
+<div class="news">
+    <h2>Worldwide News</h2>
+
+    <!-- create figure to allow captioning -->
+    <figure>
+        <img src="corona.jpg" alt="corona virus image " height="300" width="450"/>
+        <figcaption>
+            Corona virus <br>
+            <a href="https://www.nytimes.com/2020/05/01/us/coronavirus-updates.html">Click here to go to corona virus
+                new article!</a>
+        </figcaption>
+    </figure>
+    <div class="whitespce"></div>
+    <!-- create figure to allow captioning -->
+    <figure>
+        <img src="pro.jpg" alt="image of people protesting" height="300" width="450"/>
+        <figcaption>
+            People Protesting due to Coronavirus <br>
+            <a href="https://www.nbcnews.com/politics/politics-news/hundreds-protest-michigan-lawmakers-consider-extending-governors-emergency-powers-n1196886">Click
+                here to go to corona virus new article!</a>
+        </figcaption>
+    </figure>
+</div>
+
+<!-- footer with validation link -->
+<footer id="Validation">
+    <div class="foot">
+        &copy; Stocker√ | Evan Rohrwasser<br/>
+        5/1/2020
+    </div>
+    <br/>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+</footer>
+</body>
+</html>

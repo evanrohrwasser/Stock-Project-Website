@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stocker Trends Page</title>
+    <link rel="shortcut icon" type="image/png" href="s.png">
+
+
+    <!-- link to css file -->
+    <link href="Trends.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="Trends.js"></script>
+</head>
+    <!-- intro for webpage -->
+<body>
+<!-- navigation bar -->
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="News.html">News</a>
+    <a href="Trends.html" class="active">Trends</a>
+    <a href="Login.html">Login</a>
+</div>
+
+<!-- div for intro paragraph -->
+<div class="intro">
+    <p>This is where you can come to find the hottest stocks right now and stocks to consider selling!</p>
+</div>
+<main>
+    <h2>Trending Stocks</h2>
+
+    <!-- ajax request for json file -->
+    <div class="trends" id="stock"></div>
+</main>
+<!-- stocks with graphs -->
+<div class="hot">
+    <h1>These are the hottest stocks right now!</h1>
+    <div class="whitespce"></div>
+    <img src="intel.jpg" alt="intel current stock price" height="350" width="500"/>
+    <img src="booking.png" alt="booking holdings stock price" height="350" width="500"/>
+    <img src="hanes.png" alt="Hanesbrand stock price" height="350" width="500"/>
+    <img src="tesla.png" alt="tesla stock price" height="350" width="500"/>
+</div>
+
+<!-- conclusion for page -->
+<div class="conc">
+    <p>
+        Stay posted for any updates and news!
+    </p>
+</div>
+
+
+
+<!-- footer with validation links -->
+<footer id="Validation">
+    <div class="foot">
+        &copy; Stocker√ | Evan Rohrwasser<br/>
+        5/1/2020
+    </div>
+    <br/>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+</footer>
+</body>
+
+</html>

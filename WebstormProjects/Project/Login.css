@@ -1,0 +1,146 @@
+/* Styling for background of page */
+body {
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);
+    padding-top: 25vh;
+}
+
+/* css for background color */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    height: auto;
+    white-space: nowrap;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%;
+    font-weight: bolder
+}
+
+/* Change the color of links when hovering over them */
+.navbar a:hover {
+    background-color: #d7519d;
+    color: black;
+
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #2c81b9;
+    color: black;
+    width: 25%;
+    text-align: center;
+}
+
+
+/* Styling for entire page */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+/* Styling for login form */
+.login-form {
+    width: 325px;
+    height: auto;
+    padding: 30px 30px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000000;
+    margin: auto;
+    margin-bottom: 115px;
+}
+
+
+/* Styling for login header */
+.login-form h1 {
+    color: #2b80b6;
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 50px;
+    font-family: "Cooper Black";
+    font-weight: bolder;
+}
+
+/* Styling for textbox that the form is in */
+.textbox {
+    border-bottom: 2px solid #adadad;
+    position: relative;
+    margin: 30px 0;
+}
+
+/* Styling for textbox that the form is in */
+.textbox input {
+    font-size: 15px;
+    color: #333333;
+    border: none;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 0 5px;
+    height: 40px;
+}
+
+/* Styling for submit button */
+.logbtn {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: linear-gradient(120deg, #3498db, #8e44ad, #3498db);
+    background-size: 200%;
+    color: #ffffff;
+    outline: none;
+    cursor: pointer;
+    transition: 5s;
+}
+
+/* button hover animation */
+.logbtn:hover {
+    background-position: right;
+}
+
+/* Style for the return button */
+.bottom-text {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* Style, positioning, and link for lock image */
+.lock-img {
+    background: url("block.jpg") no-repeat;
+    width: 70px;
+    height: 70px;
+    background-size: 100%;
+    position: relative;
+    top: 10px;
+    left: 125px;
+}
+
+/* Style for the footer */
+footer {
+    background-color: #296c9f;
+    position: relative;
+    height: 80px;
+    margin-top: -80px;
+    clear: both;
+    width: 100%;
+    left: 0;
+    text-align: right;
+    font-family: "Cooper Black";
+    font-weight: bolder;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Stocker Login</title>
+    <link rel="shortcut icon" type="image/png" href="s.png">
+
+    <!-- link to all files -->
+    <link href="Login.css" rel="stylesheet">
+    <link rel="stylesheet" href="ResponsiveSlides.js-master/jquery-ui.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="ResponsiveSlides.js-master/jquery.validate.min.js"></script>
+    <script src="ResponsiveSlides.js-master/jquery-ui.min.js"></script>
+    <script src="Login.js"></script>
+
+</head>
+
+<body>
+    <!-- navigation bar -->
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="News.html">News</a>
+        <a href="Trends.html">Trends</a>
+        <a href="Login.html" class="active">Login</a>
+    </div>
+
+    <!--create form with default action and div -->
+<form action="index.html" title="Stocker home page" class="login-form">
+    <div class="lock-img"></div>
+    <h1>Login</h1>
+
+    <!-- first textbox is for email and uses HTML5 email type and is required -->
+    <div class="textbox">
+        <input type="email" name="Email" placeholder="Email" aria-required="true">
+    </div>
+
+    <!-- second textbox is for password and uses HTML5 password type and is required -->
+    <div class="textbox">
+        <input type="password" name="Password" placeholder="Password" aria-required="true">
+    </div>
+
+    <!-- final textbox is for the date uses jQuery widget datepicker -->
+    <div class="textbox">
+        <input type="text" id="datepicker" placeholder="Enter Today's date" aria-required="true">
+    </div>
+
+    <!-- submit button -->
+    <input type="submit" class="logbtn" value="Login">
+
+    <!-- div with return link to the home page -->
+    <div class="bottom-text">
+        Return back to the home page: <a href="index.html"> Click here!</a>
+    </div>
+</form>
+
+<!-- footer with validation links -->
+<footer id="Validation">
+    <div class="foot">
+        &copy; Stocker√ | Evan Rohrwasser<br/>
+        5/1/2020
+    </div>
+    <br/>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+</footer>
+</body>
+
+</html>

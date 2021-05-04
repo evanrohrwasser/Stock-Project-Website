@@ -1,0 +1,31 @@
+{"stocks":[
+  {
+    "name": "Chipotle",
+    "image": "clogo.png",
+    "title": "Chiptole Stock",
+    "bio": "Chipotle stock has been doing well for years now and is one we highly recommend our clients look in to.",
+    "info": "Chipotle is high right now so we do not recommend buying right now"
+  },
+  {
+    "name": "American Airlines",
+    "image": "american.jpg",
+    "title": "American Airlines Stock",
+    "bio": "All travel stocks have taken a hit due to the coronavirus.",
+    "info": "Right now is a great time to buy since airlines are at an all time low"
+  },
+  {
+    "name": "Carnival Cruise Line",
+    "image": "carnical.jpg",
+    "title": "Carnival Cruise Line Stock",
+    "bio": "Cruise lines have also taken a huge hit due to the virus.",
+    "info": "Their stocks are at all time lows since people are reluctant to travel great time to buy"
+  },
+  {
+    "name": "Exxon",
+    "image": "exxon.png",
+    "title": "Exxon Stock",
+    "bio": "Oil is at the lowest price it has been in years. There is more oil than people are using.",
+    "info": "Due to the lack of need oil companies have lowered the price of their product and aren't making money on it. "
+  }
+
+]}

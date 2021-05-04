@@ -1,0 +1,164 @@
+
+/* css for background color */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    height: auto;
+    white-space: nowrap;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    width: 25%;
+    font-weight: bolder;
+}
+
+/* Change the color of links when hovering over them */
+.navbar a:hover {
+    background-color: #d74e9f;
+    color: black;
+
+}
+
+/* Add a color to the active/current link */
+.navbar a.active {
+    background-color: #2b82b9;
+    color: black;
+    width: 25%;
+    text-align: center;
+}
+
+
+
+/* css for intro class */
+div.intro{
+    text-align: center;
+    width: 65%;
+    height: auto;
+    padding: 40px 30px;
+    background: honeydew;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000000;
+    margin: auto;
+    top: auto;
+    font-family: "Cooper Black";
+    color: #2b80b6;
+    font-size: xx-large;
+    margin-top: 85px;
+}
+
+/* css for hot classs */
+div.hot{
+    font-size: xx-large;
+    color: #680000;
+    font-weight: bold;
+    text-align: center;
+    width: 65%;
+    height: auto;
+    padding: 40px 30px;
+    background: honeydew;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000000;
+    margin-left: 500px;
+    margin-top: 25px;
+}
+
+/* styling main elements */
+main {
+    width: 447px;
+    float: left;
+    background-color: #fff;
+    padding-right: 15px;
+}
+
+/* styling for p elements */
+p {
+    border-bottom: 2px solid black;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* styling for h2 elements */
+h2{
+    font-size: xx-large;
+    color: #2f2f2f;
+    font-weight: bold;
+}
+
+/* styling for body element */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    line-height: 25px;
+    width: fit-content;
+    margin: 15px auto 0 auto;
+    background-image: linear-gradient(120deg, #3498db, #8e44ad);
+}
+
+/* aligning text for trends div */
+.trends{
+   text-align: center;
+}
+
+/* styling for hot div h1 element */
+div.hot h1{
+    text-align: center;
+    width: 65%;
+    height: auto;
+    padding: 20px 10px;
+    background: honeydew;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000000;
+    margin: auto;
+    top: auto;
+    font-family: "Cooper Black";
+    color: #2b80b6;
+    font-size: xx-large;
+}
+
+/* create whitespace div of 20 pixels */
+.whitespce{
+    padding: 20px;
+}
+
+/* css for conc class */
+.conc{
+    font-size: xx-large;
+    text-align: center;
+    width: 65%;
+    height: auto;
+    padding: 20px 10px;
+    background: honeydew;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000000;
+    margin-left: 500px;
+    margin-top: 25px;
+    margin-bottom: 110px;
+    font-family: "Cooper Black";
+    font-weight: bolder;
+    color: #2b80b6;
+}
+
+/* styling for footer */
+footer{
+    background-color: #296c9f;
+    position: relative;
+    height: auto;
+    margin-top: -80px;
+    clear: both;
+    width: 100%;
+    left: 0;
+    text-align: right;
+    font-family: "Cooper Black";
+    font-weight: bolder;
+}

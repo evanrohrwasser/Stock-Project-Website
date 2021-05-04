@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:stock="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- navigation bar -->
+    <div class="navbar">
+        <a class="active" href="index.html">Home</a>
+        <a href="Watching.html">Watching</a>
+        <a href="Trends.html">Trends</a>
+        <a href="Login.html">Login</a>
+    </div>
+
+    <!-- link to css file -->
+    <link href="Watching.css" rel="stylesheet">
+
+
+
+
+    <h1>Stocks that you are Watching</h1>
+        <h2>You can add stocks here</h2>
+
+</head>
+
+
+<div class="enter">
+    <p>Enter a stock that you would like to watch</p>
+</div>
+<form id="your_details" name="your_details" action="#" >
+
+    <!-- textbox for the name of the stock -->
+    <label class = "stockname">Name of stock:</label>
+    <input id="Name" type="text" name="textfield" aria-required="true">
+
+
+    <p>
+        <!-- submit button -->
+        <button>Submit</button>
+    </p>
+</form>
+
+<body>
+
+<!-- stocks the user is watching -->
+<div class="watch">
+    <p>Stocks you are watching</p>
+    <img  src="tesla.png" alt="tesla" height="500" width="550"/>
+    <img  src="lulu.png" alt="lulu" height="500" width="550"/>
+</div>
+
+<!-- footer with validation link -->
+<footer id="Validation">
+    <br/>
+    <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+</footer>
+</body>
+</html>
